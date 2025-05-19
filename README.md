@@ -85,6 +85,17 @@ anthropic_api_key=your-anthropic-key-here
 pip install -r requirements.txt
 ```
 
+### How to run
+
+#### Via VSCODE
+Withing this repo you will find `.vscode/launch.json` which enables you to run the app using the Run and Debug menu.
+
+#### Via terminal
+1. Enable the following env variables
+  - `export FLASK_APP=app/main.py`
+  - `export PYTHONPATH="${PYTHONPATH}:/path/to/AI-Model-Comparison-API"`
+  - Run the app. `flask run`
+
 ## Available Models
 
 ### OpenAI Models
